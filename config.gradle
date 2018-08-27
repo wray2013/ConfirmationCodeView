@@ -1,0 +1,30 @@
+ext {
+    app = [
+            appVerCode   : 1,
+            appVerName   : "0.0.1",
+            applicationId: "com.wray.confirmationcodeview"
+    ]
+
+    vercode = [
+            publishCode   : 1,
+            publishVersion: "1.0.0",
+
+            userOrg       : 'wray',
+            groupId       : 'com.wray',
+            reponame      : 'rayMaven',
+            artifactId    : 'ConfirmationCodeView',
+            desc          : 'Confirmation Code EditText For Android.（安卓验证码输入框）',
+            website       : 'https://github.com/wray2013/ConfirmationCodeView'
+    ]
+
+    android = [
+            minSdkVersion    : 16,
+            targetSdkVersion : 27,
+            compileSdkVersion: 27
+    ]
+
+    dependencies = [
+            appcompatV7: 'com.android.support:appcompat-v7:27.1.1',
+    ]
+
+}

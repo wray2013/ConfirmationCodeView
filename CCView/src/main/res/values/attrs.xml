@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ConfirmationCodeView">
+        <attr name="ccvCount" format="integer" />
+        <attr name="ccvLineWidth" format="dimension" />
+        <attr name="ccvSize" format="dimension" />
+        <attr name="ccvText" format="string" />
+        <attr name="ccvContentType" format="integer" >
+            <enum name="mixture" value="0"/>
+            <enum name="letter" value="1"/>
+            <enum name="digit" value="2"/>
+        </attr>
+
+        <attr name="ccvDirection" format="integer" >
+            <enum name="ltr" value="0"/>
+            <enum name="rtl" value="1"/>
+        </attr>
+
+        <attr name="ccvBorderShape" format="integer" >
+            <enum name="line" value="0"/>
+            <enum name="square" value="1"/>
+            <enum name="squareLine" value="2"/>
+            <enum name="rectangle" value="3"/>
+            <enum name="circle" value="4"/>
+        </attr>
+        <attr name="ccvBorderColor" format="color|reference" />
+        <attr name="ccvBorderSelectColor" format="color|reference" />
+        <attr name="ccvBorderRadius" format="dimension" />
+
+        <attr name="ccvPasswordMode" format="boolean" />
+        <attr name="ccvTextColor" format="color|reference" />
+        <attr name="ccvTextSelectColor" format="color|reference" />
+        <attr name="ccvPasswordColor" format="color|reference" />
+        <attr name="ccvPasswordSelectColor" format="color|reference" />
+        <attr name="ccvContentColor" format="color|reference" />
+        <attr name="ccvContentSelectColor" format="color|reference" />
+
+        <attr name="ccvPadding" format="dimension" />
+    </declare-styleable>
+</resources>
