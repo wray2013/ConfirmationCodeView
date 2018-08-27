@@ -1,6 +1,6 @@
 # ConfirmationCodeView
 ConfirmationCodeView is a Android custom view for inputing confirmation code.
-
+一个简易的短信验证码控件
 
 [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
 <img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat">
