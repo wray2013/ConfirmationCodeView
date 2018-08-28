@@ -10,7 +10,7 @@ ConfirmationCodeView is a Android custom view for inputing confirmation code.
 ## Demo 
 <img src="/screenshot/screenshot.gif" width="360px"/>
 
-### Gradle
+## Gradle
 ```groovy
 dependencies{
     compile 'com.wray:ConfirmationCodeView:1.0.0@aar'
