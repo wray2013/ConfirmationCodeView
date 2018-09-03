@@ -86,7 +86,7 @@ Simple Use：
         });
  ```
  
-### License
+## License
 ```
 The MIT License (MIT)
 
